@@ -1,0 +1,25 @@
+# === Java : fichiers compilés ===
+*.class
+
+# === Dossiers de build / binaires (non versionnés) ===
+bin/
+build/
+out/
+target/
+
+# === Fichiers d'environnement / secrets ===
+.env
+*.key
+*.pem
+
+# === Fichiers d'IDE ===
+.idea/
+*.iml
+.vscode/
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+
+# === Journaux ===
+*.log
